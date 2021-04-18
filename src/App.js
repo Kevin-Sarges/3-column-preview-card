@@ -1,8 +1,14 @@
 import React from 'react';
 
+import Globalstyle from './styles/GlobalStyles';
+import Cards from './components/Cards';
+
 function App() {
   return (
-    <h1>Teste!!</h1>
+    <>
+      <Cards />
+      <Globalstyle />
+    </>
   );
 }
 

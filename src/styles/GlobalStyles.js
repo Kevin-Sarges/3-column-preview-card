@@ -9,25 +9,33 @@ export default createGlobalStyle`
       --Very-light-gray: hsl(0, 0%, 95%); /* background, headings, buttons */
     }
 
-		* {
-			margin: 0;
-			padding: 0;
-			box-sizing: border-box;
-		}
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+	}
 
-		html, body {
-			width: 100%;
-			height: 100%;
-		}
+	html, body {
+		width: 100%;
+		height: 100%;
+	}
 
-		body, button {
-			font-size: 15px;
-			font-family: 'Lexend Deca', sans-serif;
-			font-weight: 400;
-		}
+	body {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
 
-		h1, h2 {
-			font-family: 'Big Shoulders Display', cursive;
-			font-weight: 700;
-		}
+	body, button {
+		font-size: 15px;
+		font-family: 'Lexend Deca', sans-serif;
+		font-weight: 400;
+		color: var(--Transparent-white);
+		background: var(--Very-light-gray);
+	}
+
+	h1, h2 {
+		font-family: 'Big Shoulders Display', cursive;
+		font-weight: 700;
+	}
 `;
