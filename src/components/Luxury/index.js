@@ -1,19 +1,22 @@
 import React from 'react';
 
 import Image from '../../assets/icon-luxury.svg';
+import Button from '../Button';
 
-import { Container } from './styles';
+import { Container, Car } from './styles';
 
 function Luxury() {
   return (
 		<Container>
-			<img src={ Image }/>
+			<Car>
+				<img src={ Image }/>
 
-			<h1>LUXURY</h1>
+				<h1>LUXURY</h1>
 
-			<p>Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury rental and arrive in style.</p>
+				<p>Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury rental and arrive in style.</p>
 
-			<button>Learn More</button>
+				<Button />
+			</Car>
 		</Container>
   );
 }

@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-	width: 80vw;
+	width: 60vw;
 	height: 70vh;
 	margin: 0 auto;
 	display: flex;
@@ -10,5 +10,11 @@ export const Container = styled.div`
 
 	img {
 		width: 55px;
+	}
+
+	@media(max-width: 850px) {
+		width: 70%;
+		height: 100%;
+		flex-direction: column;
 	}
 `;

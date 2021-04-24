@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Image from '../../assets/icon-sedans.svg';
+import Button from '../Button';
 
 import { Container, Car } from './styles';
 
@@ -14,7 +15,7 @@ function Sedans() {
 
         <p>Choose a sedan for its affordability and excenllent fuel economy. Ideal for cruising in the city or on your next road trip.</p>
 
-        <button>Learn More</button>
+        <Button />
       </Car>
     </Container>
   );
